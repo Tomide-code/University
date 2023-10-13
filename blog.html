@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Tomide University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/MONSTER.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="">MARKETING</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs for 2023</h1>       
+    </section>
+
+ <!-----------------------------------Blog Page------------------------------------->    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/logo2.png" alt="">
+                <h2>Our Certificate & Online Programs for 2023</h2>
+                <p>Vestibulum sollicitudin ut ante ut ornare. Morbi feugiat eros metus, ac convallis magna iaculis ac. Curabitur rhoncus velit eget justo sagittis cursus. Nulla eu suscipit felis. Curabitur eleifend lacus vel euismod semper. Aliquam erat volutpat. Morbi porttitor tellus sit amet gravida auctor.</p>
+                <br>
+                <p>Sed scelerisque lectus ac justo scelerisque consectetur. Morbi consequat volutpat velit id mollis. Cras imperdiet, lectus at pulvinar iaculis, quam est efficitur purus, vel iaculis risus mi sit amet tellus. Sed suscipit vitae libero sit amet porttitor. Donec ornare elementum nulla, sit amet convallis lectus aliquam ac. Etiam ac metus purus. Nunc sit amet sapien id magna imperdiet molestie a a neque.</p>
+                <br>
+                <p>Morbi eget lacus eu ipsum consectetur condimentum. Sed ut urna imperdiet leo feugiat pharetra. Praesent vehicula condimentum massa, non blandit justo consectetur et. Etiam consequat metus non felis varius, nec imperdiet enim consectetur. Nam tincidunt nisi ac nunc viverra fermentum. Morbi bibendum maximus dui, at convallis nisl placerat eget. Pellentesque lorem ligula, egestas eu condimentum eget, efficitur quis elit.</p>
+                <br>
+                <p>Duis posuere facilisis dictum. Integer et blandit mi. Pellentesque eget facilisis mauris. Suspendisse neque sapien, accumsan et risus et, vestibulum euismod tellus. Sed tempor, ligula quis luctus rutrum, odio mauris varius nulla, in molestie orci justo ac lorem. Suspendisse vel turpis vehicula nisi varius vehicula nec id nisi.</p>
+                <br>
+                <p>Phasellus volutpat mattis justo, at condimentum purus condimentum ac. Suspendisse potenti. Etiam venenatis velit id sapien scelerisque, ac vulputate nunc finibus. Duis vel mattis diam, ac pharetra est. Vestibulum sollicitudin ut ante ut ornare. Morbi feugiat eros metus, ac convallis magna iaculis ac. Curabitur rhoncus velit eget justo sagittis cursus. Nulla eu suscipit felis.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Land Surveying</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Urban & Regional Planning</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Architecture</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+ <!-----------------------------------Footer---------------------------------------->
+ 
+    <section class="footer">
+        <h4>About Us</h4>
+        <P>Curabitur eu justo fermentum, porta velit scelerisque, ultrices est. Donec quis interdum metus. Proin quis porta <br>metus. Nunc porttitor neque nec blandit malesuada. Praesent elementum sollicitudin <br>posuere. Cras eleifend sit amet nulla eget iaculis.</P>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>© 2023. Tomide University. All rights reserved | Developed by OlatomidE.</p>
+
+    </section>
+
+
+
+ <!------------------------JAVASCRIPT for Toggle Menu-------------------------->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+</body>
+</html>
